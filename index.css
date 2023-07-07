@@ -1,0 +1,480 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    line-height: 30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header-intro {
+    width: 100%;
+    padding-bottom: 100px;
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+
+.floating-right {
+    float: right;
+    width: 50%;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.floating-left {
+    float: left;
+    width: 50%;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.menu a {
+    background-color: #ffeeee;
+    padding: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    width: 80%;
+    color: black;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.main {
+    margin-top: 7px;
+    float: left;
+    width: 20%;
+}
+
+.right {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.right img {
+    width: 50%;
+}
+
+.text {
+    width: 70%;
+    display: inline-block;
+    line-height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.typewriter h2 {
+    font-size: 20px;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.15em;
+    /* Adjust as needed */
+    border-radius: 30px;
+    border: 0.15em solid #ffcccc;
+    padding: 15px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #cedbc6;
+    padding: 20px 10px 10px;
+    color: white;
+    z-index: 999;
+}
+
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: #ffcccc;
+}
+
+.header a.active {
+    background-color: #b8b6b6;
+    color: white;
+}
+
+.header-option {
+    float: right;
+}
+
+.header-menu {
+    display: none;
+}
+
+.logo {
+    padding: 0px;
+}
+
+.material-symbols-outlined {
+    font-size: 200px;
+}
+
+.project-image {
+    width: 45%;
+}
+
+.project-image-laptop {
+    width: 90%;
+}
+
+.project-mob {
+    width: 45%;
+}
+
+.project-lap {
+    width: 90%;
+}
+
+.logo-image {
+    width: 45%;
+}
+
+.btn-icon {
+    background-color: transparent !important;
+}
+
+
+/* dropdown menu */
+.dropdown {
+    float: left;
+    overflow: auto;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    float: right;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #ffa6b6;
+    display: none;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #ffa6b6;
+    min-width: 160px;
+    border-radius: 20px;
+    color: white;
+}
+
+.dropdown-content a {
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #fdc4ce;
+    border-radius: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* dropdown menu end here */
+
+.divider-title {
+    background: #ffffff;
+    border-bottom: 3px solid #cedbc6;
+    padding-bottom: 10px;
+    color: #cedbc6;
+    font-size: 150%;
+    padding-left: 20px;
+    margin: auto;
+    margin-bottom: 5%;
+    text-decoration: none;
+    display: inline-block;
+    width: 80%;
+    justify-content: left;
+    display: inline-flex;
+}
+
+.sub-divider-title {
+    background: #ffffff;
+    border-bottom: 3px solid #ffcccc;
+    padding-bottom: 10px;
+    color: #ffcccc;
+    font-size: 120%;
+    margin: auto;
+    margin-bottom: 5%;
+    text-decoration: none;
+    display: inline-block;
+    width: 80%;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.footer {
+    background-color: #cedbc6;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 125px;
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.floating-icon {
+    text-decoration: none;
+    color: #aaa
+}
+
+.icon-footer {
+    width: 20px;
+}
+
+.floating-icon-container {
+    width: 100%;
+    padding-bottom: 70px;
+    color: #555555
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .project-card {
+    flex: 1;
+}
+
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+}
+
+#checkBtn {
+    display: none;
+}
+
+#listing {
+    display: none;
+}
+
+#checkBtn:checked~#listing {
+    display: block;
+}
+
+#checkBtn1 {
+    display: none;
+}
+
+#listing1 {
+    display: none;
+}
+
+#checkBtn1:checked~#listing1 {
+    display: block;
+}
+
+#checkBtn2 {
+    display: none;
+}
+
+#listing2 {
+    display: none;
+}
+
+#checkBtn2:checked~#listing2 {
+    display: block;
+}
+
+.skilltitle {
+    padding-top: 5px;
+    border-radius: 50px;
+    background-color: #ffcccc;
+    color: #ffffff;
+}
+
+.project-card {
+    height: 400px;
+    border-radius: 20px;
+    border: #ffcccc 3px solid;
+    margin: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-view {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.link-button {
+    color: white;
+    background-color: #cedbc6;
+    width: 100px;
+    padding: 8px;
+    border-radius: 25px;
+    margin: 2%;
+    display: inline-block;
+}
+
+.link-button:hover {
+    background-color: #ffcccc;
+}
+
+.link-button a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.link-button-disable {
+    color: white;
+    background-color: #bbb;
+    width: 100px;
+    padding: 8px;
+    border-radius: 25px;
+    margin: 2%;
+    display: inline-block;
+}
+
+.tagging {
+    color: white;
+    background-color: #ffcccc;
+    width: 100px;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 2%;
+    display: inline-block;
+}
+
+.project-detail {
+    width: 80%;
+    border-radius: 20px;
+    background-color: #cedbc6;
+    margin: 5%;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    padding: 5%;
+}
+
+.resume-image {
+    width: 90%;
+}
+
+.intro-container {
+    width: 50%;
+    text-align: left;
+    padding: 5%;
+}
+
+.name-title {
+    font-size: 50px;
+    color: #ffcccc;
+    line-height: 50px;
+}
+
+.study-title {}
+
+@media (max-width: 769px) {
+    .project-card {
+        height: 500px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .project-image {
+        width: 40%;
+    }
+
+    .project-image-laptop {
+        width: 70%;
+    }
+
+    .project-mob {
+        width: 40%;
+    }
+
+    .project-lap {
+        width: 70%;
+    }
+
+
+}
+
+@media (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .project-image {
+        width: 35%;
+    }
+
+    .project-image-laptop {
+        width: 80%;
+    }
+
+    .project-mob {
+        width: 70%;
+    }
+
+    .project-lap {
+        width: 100%;
+    }
+
+    .header-option {
+        display: none;
+    }
+
+    .header-menu {
+        padding: 2%;
+        float: right;
+        display: inline-block;
+    }
+
+    .project-card {
+        height: 300px;
+    }
+
+}

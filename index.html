@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base target='_blank' /> <!--new tab link-->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <link rel="shortcut icon" href="https://imgur.com/IQS1XTk.png" type="image/x-icon" />
+
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+  <title>Naddechan</title>
+  <link rel="stylesheet" href="index.css" />
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet" />
+
+<body>
+  <!-- floating icon start here-->
+  <div style="
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        width: 50px;
+        height: 160px;
+      ">
+    <div class="floating-icon-container">
+      <a class="floating-icon" href="mailto:aliaanadzirahh00@gmail.com"><img class="icon-footer"
+          src="https://cdn-icons-png.flaticon.com/512/542/542638.png" /></a> 
+      <a class="floating-icon" href="https://www.linkedin.com/in/alianadzirah"><img class="icon-footer"
+          src="https://cdn-icons-png.flaticon.com/512/61/61109.png" /></a> 
+      <a class="floating-icon" href="https://github.com/alianadzirah/"><img class="icon-footer"
+          src="https://cdn-icons-png.flaticon.com/512/25/25657.png" /></a>
+    </div>
+  </div>
+  <!-- floating icon end here-->
+
+  <!--header start here-->
+  <div class="header">
+    <div>
+      <img width="60" src="https://imgur.com/IQS1XTk.png" />
+      <div class="header-option">
+        <a onClick="document.getElementById('page').innerHTML=document.getElementById('home').innerHTML">Home</a>
+        <a onClick="document.getElementById('page').innerHTML=document.getElementById('tech').innerHTML">Project</a>
+        <a onClick="document.getElementById('page').innerHTML=document.getElementById('resume').innerHTML">Resume</a>
+        <a href="mailto:aliaanadzirahh00@gmail.com">Contact</a>
+      </div>
+
+      <!--hamburger start here-->
+      <div class="header-menu">
+        <div class="btn-group">
+          <button class="button-drop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="material-icons" style="font-size: 35px; color: white">
+              menu
+            </i>
+          </button>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a style="color: #555555;"
+              onClick="document.getElementById('page').innerHTML=document.getElementById('home').innerHTML">Home</a>
+            <a style="color: #555555;"
+              onClick="document.getElementById('page').innerHTML=document.getElementById('tech').innerHTML">Project</a>
+            <a style="color: #555555;"
+              onClick="document.getElementById('page').innerHTML=document.getElementById('resume').innerHTML">Resume</a>
+            <a style="color: #555555;" href="mailto:aliaanadzirahh00@gmail.com">Contact</a>
+          </div>
+        </div>
+      </div>
+      <!--hamburger end here-->
+    </div>
+  </div>
+  <!--header end here-->
+
+  <table style="
+        background: #ffffff;
+        width: 100%;
+        color: #666;
+        line-height: 30px;
+        background-color: #fff;
+      " align="center" border="0" cellspacing="10">
+    <tbody>
+      <td valign="top" style="width: 100%; padding: 5px">
+        <div id="page">
+          <center>
+            <div class="header-intro">
+              <div class="intro-container">
+                <p style="font-size: 20px;">Hi everyone I'm</p>
+                <p class="name-title"> Nad...</p>
+                <p>I'm a computer science multimedia student in my final year, and I'm interested in building inventive
+                  applications for websites and mobile devices especially in front-end development and UI design.</p>
+              </div>
+
+              <div class="typewriter">
+                <h2>
+                  <a style="color: #bbb; text-decoration: none" href="https://github.com/alianadzirah"><img
+                      style="width: 30px;" src="https://i.imgur.com/bfS9UVL.png" /> Github</a>
+                </h2>
+              </div>
+            </div>
+
+            <!--experience start here-->
+            <div class="divider-title">Experience</div>
+            <div style="width: 90%; overflow: auto">
+              <div class="sub-divider-title">Competition</div>
+              <p>competition</p>
+              <br /><br />
+              <div class="sub-divider-title">Working Experience</div>
+              <p>working experience</p>
+              <br /><br />
+              <div class="sub-divider-title">Leadership Experience</div>
+              <p>working experience</p>
+              <br /><br />
+            </div>
+            <br /><br />
+            <!--experience end here-->
+
+            <!--skill start here-->
+            <div class="divider-title">Skills</div>
+            <div style="width: 70%; overflow: auto">
+              <br />
+              <div class="skilltitle">
+                <label for="checkBtn">
+                  Mobile Development
+                </label>
+              </div>
+
+              <input type="checkbox" id="checkBtn">
+              <div id="listing">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <div class="project-view">
+                        <img class="logo-image" src="https://i.imgur.com/XBiHvNB.png" />
+                      </div>
+                      <div>
+                        <p>React Native</p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <div class="project-view">
+                        <img class="logo-image" src="https://i.imgur.com/MetckES.png" />
+                      </div>
+                      <div>
+                        <p>JavaScript</p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <div class="project-view">
+                        <img class="logo-image" src="https://i.imgur.com/IC8bUHd.png" />
+                      </div>
+                      <div>
+                        <p>TypeScript</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <div class="project-view">
+                        <img class="logo-image" src="https://i.imgur.com/2c0yNuZ.png" />
+                      </div>
+                      <div>
+                        <p>Node.js</p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <div class="project-view">
+                        <img class="logo-image" src="https://i.imgur.com/sWOvhyb.png" />
+                      </div>
+                      <div>
+                        <p>Flutter</p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <div class="project-view">
+                        <img class="logo-image" src="https://i.imgur.com/9y056RG.png" />
+                      </div>
+                      <div>
+                        <p>Dart</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <div class="project-view">
+                        <img class="logo-image" src="https://i.imgur.com/hEvA4J0.png" />
+                      </div>
+                      <div>
+                        <p>Unity</p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <div class="project-view">
+                        <img class="logo-image" src="https://i.imgur.com/BJRclI3.png" />
+                      </div>
+                      <div>
+                        <p>JEST</p>
+                      </div>
+                    </div>
+
+                    <!--new skill-->
+                    <!-- <div class="col-lg-4 col-md-4 col-sm-12">
+                      <div class="project-view">
+                        <img class="logo-image" src="asset/project/logo-all.jpg" />
+                      </div>
+                      <div>
+                        <p>xxx</p>
+                      </div>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+
+              <br />
+              <div class="skilltitle">
+                <label for="checkBtn1">
+                  Web Development
+                </label>
+              </div>
+
+              <input type="checkbox" id="checkBtn1">
+              <div id="listing1">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <div class="project-view">
+                        <img class="logo-image" src="https://i.imgur.com/XBiHvNB.png" />
+                      </div>
+                      <div>
+                        <p>React</p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <div class="project-view">
+                        <img class="logo-image" src="https://i.imgur.com/h53D8lU.png" />
+                      </div>
+                      <div>
+                        <p>HTML CSS</p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <div class="project-view">
+                        <img class="logo-image" src="https://i.imgur.com/Q47DUJL.png" />
+                      </div>
+                      <div>
+                        <p>Bootstrap</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <br />
+              <div class="skilltitle">
+                <label for="checkBtn2">
+                  Others
+                </label>
+              </div>
+
+              <input type="checkbox" id="checkBtn2">
+              <div id="listing2">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <div class="project-view">
+                        <img class="logo-image" src="https://i.imgur.com/XBYEGlE.png" />
+                      </div>
+                      <div>
+                        <p>Java</p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <div class="project-view">
+                        <img class="logo-image" src="https://i.imgur.com/lkHq7iJ.png" />
+                      </div>
+                      <div>
+                        <p>Spline</p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <div class="project-view">
+                        <img class="logo-image" src="https://i.imgur.com/LCR3HLZ.png" />
+                      </div>
+                      <div>
+                        <p>Figma</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br /><br /><br /><br />
+            <!--skill end here-->
+
+            <!--project start here-->
+            <div class="divider-title">Projects</div>
+            <div style="width: 80%; ">
+              <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                  <div class="project-card">
+                    <div class="project-view">
+                      <img class="project-image" src="https://i.imgur.com/4Zx6o75.png" />
+                      <br />
+                      <p>Datesify</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                  <div class="project-card">
+                    <div class="project-view">
+                      <img class="project-image-laptop" src="https://i.imgur.com/u1fIyAk.png" />
+                      <br />
+                      <p>PutraDeal</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                  <div class="project-card">
+                    <div class="project-view">
+                      <img class="project-image-laptop" src="https://i.imgur.com/hqAl5MY.png" />
+                      <br />
+                      <p>Naddechan's Room</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                  <div class="project-card">
+                    <a
+                      onClick="document.getElementById('page').innerHTML=document.getElementById('tech').innerHTML">more...</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br /><br /><br /><br />
+            <!--project end here-->
+          </center>
+        </div>
+      </td>
+    </tbody>
+
+    <div id="tech" style="display: none;">
+      <center>
+        <br /><br />
+        <div class="divider-title">Mobile</div>
+        <div style="width: 70%; overflow: auto">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div>
+                  <p>StudyChill</p>
+                </div>
+                <div class="project-view">
+                  <img class="project-mob" src="https://i.imgur.com/uy7QBEP.png" />
+                </div>
+                <div class="row align-items-center">
+                  <div class="col">
+                    <div class="link-button-disable">
+                      Demo
+                    </div>
+                    <div class="link-button-disable">
+                      Code
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
+                <div class="row align-items-center">
+                  <div class="col">
+                    <div class="tagging">
+                      Unity
+                    </div>
+                    <div class="tagging">
+                      C#
+                    </div>
+                  </div>
+
+                </div>
+                <div class="project-detail">
+                  <div style="align-self: center;">
+                    <p>StudyChill is an Android mobile application that allows user to
+                      gain information, tips and trick about education. It is focusing
+                      especially on self learning. This application allows users to
+                      study in cozy environment. Users also can download study
+                      template from this application.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <br /><br />
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div>
+                  <p>Girls Talk (Team)</p>
+                </div>
+                <div class="project-view">
+                  <img class="project-mob" src="https://i.imgur.com/0gcpvWB.png" />
+                </div>
+                <div class="row align-items-center">
+                  <div class="col">
+                    <div class="link-button-disable">
+                      Demo
+                    </div>
+                    <div class="link-button-disable">
+                      Code
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
+                <div class="row align-items-center">
+                  <div class="col">
+                    <div class="tagging">
+                      Unity
+                    </div>
+                    <div class="tagging">
+                      C#
+                    </div>
+                  </div>
+
+                </div>
+                <div class="project-detail">
+                  <div style="align-self: center;">
+                    <p>Girls Talk is an Android mobile application that focusing on
+                      giving awareness on Pelvic Inflammatory Disease (PID). This
+                      application allows users to read more details on PID. Users also
+                      can use AR feature to scan the image in Girls Talk storybook to
+                      view the 360° of ovary model.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <br /><br />
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div>
+                  <p>Focutask (Team)</p>
+                </div>
+                <div class="project-view">
+                  <img class="project-mob" src="https://i.imgur.com/ZUWxs3c.png" />
+                </div>
+                <div class="row align-items-center">
+                  <div class="col">
+                    <div class="link-button-disable">
+                      Demo
+                    </div>
+                    <div class="link-button-disable">
+                      Code
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
+                <div class="row align-items-center">
+                  <div class="col">
+                    <div class="tagging">
+                      Flutter
+                    </div>
+                    <div class="tagging">
+                      Dart
+                    </div>
+                  </div>
+
+                </div>
+                <div class="project-detail">
+                  <div style="align-self: center;">
+                    <p>Focutask is an Android mobile application that helps the user in
+                      remaining focused while working by utilizing the Pomodoro
+                      technique and organizing tasks into a to-do list. This
+                      application will not be addictive but it will assist users to
+                      stay focused on their tasks and keep it on track.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <br /><br />
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div>
+                  <p>Datesify</p>
+                </div>
+                <div class="project-view">
+                  <img class="project-mob" src="https://i.imgur.com/4Zx6o75.png" />
+                </div>
+                <div class="row align-items-center">
+                  <div class="col">
+                    <div class="link-button">
+                      <a
+                        href="https://www.figma.com/proto/WMGPqOoxQRYYQbQTcrGR7n/Datesify?scaling=scale-down&page-id=0%3A1&node-id=1%3A4&starting-point-node-id=1%3A4">Demo</a>
+                    </div>
+                    <div class="link-button-disable">
+                      Code
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
+                <div class="row align-items-center">
+                  <div class="col">
+                    <div class="tagging">
+                      Flutter
+                    </div>
+                    <div class="tagging">
+                      Dart
+                    </div>
+                  </div>
+
+                </div>
+                <div class="project-detail">
+                  <div style="align-self: center;">
+                    <p>Datesify is an Android mobile application that allows user to do
+                      classification features of dates fruits to detect their types.
+                      Users can also gains information about dates fruit and play the
+                      games.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <br /><br />
+        </div>
+
+        <br /><br />
+        <div class="divider-title">Website</div>
+        <div style="width: 70%; overflow: auto">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div>
+                  <p>Food Distribution System (Team)</p>
+                </div>
+                <div class="project-view">
+                  <img class="project-lap" src="https://i.imgur.com/oMazH6b.png" />
+                </div>
+                <div class="row align-items-center">
+                  <div class="col">
+                    <div class="link-button">
+                      <a
+                        href="https://www.figma.com/proto/TLqMXyF7l8GrlAmKN3zVdF/food-distribution-system-(Copy)?node-id=275-1048&scaling=scale-down&page-id=0%3A1&starting-point-node-id=275%3A1048&show-proto-sidebar=1">Demo</a>
+                    </div>
+                    <div class="link-button-disable">
+                      Code
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
+                <div class="row align-items-center">
+                  <div class="col">
+                    <div class="tagging">
+                      Unity
+                    </div>
+                    <div class="tagging">
+                      C#
+                    </div>
+                  </div>
+
+                </div>
+                <div class="project-detail">
+                  <div style="align-self: center;">
+                    <p>Food Distribution System is a system that allows user to do
+                      contactless food ordering in schools and handles orders.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <br /><br />
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div>
+                  <p>PutraDeal (Team)</p>
+                </div>
+                <div class="project-view">
+                  <img class="project-lap" src="https://i.imgur.com/u1fIyAk.png" />
+                </div>
+                <div class="row align-items-center">
+                  <div class="col">
+                    <div class="link-button">
+                      <a
+                        href="https://www.figma.com/proto/O4DM2hjxxLG8CIGKdsedGR/PutraDeal-GUI?scaling=scale-down&page-id=0%3A1&starting-point-node-id=495%3A21&show-proto-sidebar=1&node-id=495-21">Demo</a>
+                    </div>
+                    <div class="link-button-disable">
+                      Code
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
+                <div class="row align-items-center">
+                  <div class="col">
+                    <div class="tagging">
+                      Unity
+                    </div>
+                    <div class="tagging">
+                      C#
+                    </div>
+                  </div>
+
+                </div>
+                <div class="project-detail">
+                  <div style="align-self: center;">
+                    <p>PutraDeal is an E-commerce website for users to shop or handles
+                      end-to-end sales process specifically in UPM Community</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <br /><br />
+
+        </div>
+
+        <br /><br />
+        <div class="divider-title">3D Model</div>
+        <div style="width: 70%; overflow: auto">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div>
+              <p>Naddechan's Room</p>
+            </div>
+            <div class="project-view">
+              <img class="project-lap" src="https://i.imgur.com/hqAl5MY.png" />
+            </div>
+            <div class="row align-items-center">
+              <div class="col">
+                <div class="link-button">
+                  <a href="https://my.spline.design/miniroomartcopy-5827646afda04737c8be2e7fd2c3ed8e/">Demo</a>
+                </div>
+                <div class="tagging">
+                  Spline
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <br /><br />
+
+          <!--upcoming-->
+          <!-- <div class="col-lg-6 col-md-6 col-sm-12">
+            <div>
+              <p>Naddechan's Room</p>
+            </div>
+            <div class="project-view">
+              <img class="project-lap" src="asset/3dmodel/naddechan-room.png" />
+            </div>
+            <div class="row align-items-center">
+              <div class="col">
+                <div class="link-button">
+                  Demo
+                </div>
+                <div class="tagging">
+                  Spline
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <br /><br /> -->
+          <!--upcoming-->
+        </div>
+
+
+      </center>
+
+    </div>
+
+    <!--resume page start here-->
+    <div id="resume" style="display: none;">
+      <center>
+        <br /><br />
+        <div class="divider-title">Resume</div>
+
+        <img class="resume-image" src="https://i.imgur.com/4IkASbu.png" />
+        <br />
+        <div class="link-button">
+          <a href="http://naddechan.com/wp-content/uploads/2023/06/ALIA-NADZIRAH-MAY-2023-RESUME.zip"
+            download="alianadzirah_resume">Download</a>
+        </div>
+      </center>
+
+    </div>
+    <!--resume page end here-->
+
+    <!--home tab start here-->
+    <div id="home" style="display: none">
+      <center>
+        <div class="header-intro">
+          <div class="intro-container">
+            <p style="font-size: 20px;">Hi everyone I'm</p>
+            <p class="name-title"> Nad...</p>
+            <p>I'm a computer science multimedia student in my final year, and I'm interested in building inventive
+              applications for websites and mobile devices especially in front-end development and UI design.</p>
+          </div>
+
+          <div class="typewriter">
+            <h2>
+              <a style="color: #bbb; text-decoration: none" href="https://github.com/alianadzirah"><img
+                  style="width: 30px;" src="https://i.imgur.com/bfS9UVL.png" /> Github</a>
+            </h2>
+          </div>
+        </div>
+
+        <!--experience start here-->
+        <div class="divider-title">Experience</div>
+        <div style="width: 90%; overflow: auto">
+          <div class="sub-divider-title">Competition</div>
+          <p>competition</p>
+          <br /><br />
+          <div class="sub-divider-title">Working Experience</div>
+          <p>working experience</p>
+          <br /><br />
+          <div class="sub-divider-title">Leadership Experience</div>
+          <p>working experience</p>
+          <br /><br />
+        </div>
+        <br /><br />
+        <!--experience end here-->
+
+        <!--skill start here-->
+        <div class="divider-title">Skills</div>
+        <div style="width: 70%; overflow: auto">
+          <br />
+          <div class="skilltitle">
+            <label for="checkBtn4">
+              Mobile Development
+            </label>
+          </div>
+
+          <div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="project-view">
+                    <img class="logo-image" src="https://i.imgur.com/XBiHvNB.png" />
+                  </div>
+                  <div>
+                    <p>React Native</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="project-view">
+                    <img class="logo-image" src="https://i.imgur.com/MetckES.png" />
+                  </div>
+                  <div>
+                    <p>JavaScript</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="project-view">
+                    <img class="logo-image" src="https://i.imgur.com/IC8bUHd.png" />
+                  </div>
+                  <div>
+                    <p>TypeScript</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="project-view">
+                    <img class="logo-image" src="https://i.imgur.com/2c0yNuZ.png" />
+                  </div>
+                  <div>
+                    <p>Node.js</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="project-view">
+                    <img class="logo-image" src="https://i.imgur.com/sWOvhyb.png" />
+                  </div>
+                  <div>
+                    <p>Flutter</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="project-view">
+                    <img class="logo-image" src="https://i.imgur.com/9y056RG.png" />
+                  </div>
+                  <div>
+                    <p>Dart</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="project-view">
+                    <img class="logo-image" src="https://i.imgur.com/hEvA4J0.png" />
+                  </div>
+                  <div>
+                    <p>Unity</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="project-view">
+                    <img class="logo-image" src="https://i.imgur.com/BJRclI3.png" />
+                  </div>
+                  <div>
+                    <p>JEST</p>
+                  </div>
+                </div>
+
+                <!--new skill-->
+                <!-- <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="project-view">
+                    <img class="logo-image" src="asset/project/logo-all.jpg" />
+                  </div>
+                  <div>
+                    <p>xxx</p>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+
+          <br />
+          <div class="skilltitle">
+            <label for="checkBtn5">
+              Web Development
+            </label>
+          </div>
+
+          <div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="project-view">
+                    <img class="logo-image" src="https://i.imgur.com/XBiHvNB.png" />
+                  </div>
+                  <div>
+                    <p>React</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="project-view">
+                    <img class="logo-image" src="https://i.imgur.com/h53D8lU.png" />
+                  </div>
+                  <div>
+                    <p>HTML CSS</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="project-view">
+                    <img class="logo-image" src="https://i.imgur.com/Q47DUJL.png" />
+                  </div>
+                  <div>
+                    <p>Bootstrap</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br />
+          <div class="skilltitle">
+            <label for="checkBtn6">
+              Others
+            </label>
+          </div>
+
+          <div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="project-view">
+                    <img class="logo-image" src="https://i.imgur.com/XBYEGlE.png" />
+                  </div>
+                  <div>
+                    <p>Java</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="project-view">
+                    <img class="logo-image" src="https://i.imgur.com/lkHq7iJ.png" />
+                  </div>
+                  <div>
+                    <p>Spline</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="project-view">
+                    <img class="logo-image" src="https://i.imgur.com/LCR3HLZ.png" />
+                  </div>
+                  <div>
+                    <p>Figma</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br /><br /><br /><br />
+        <!--skill end here-->
+
+        <!--project start here-->
+        <div class="divider-title">Projects</div>
+        <div style="width: 80%; ">
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-12">
+              <div class="project-card">
+                <div class="project-view">
+                  <img class="project-image" src="https://i.imgur.com/4Zx6o75.png" />
+                  <br />
+                  <p>Datesify</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-12">
+              <div class="project-card">
+                <div class="project-view">
+                  <img class="project-image-laptop" src="https://i.imgur.com/u1fIyAk.png" />
+                  <br />
+                  <p>PutraDeal</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-12">
+              <div class="project-card">
+                <div class="project-view">
+                  <img class="project-image-laptop" src="https://i.imgur.com/hqAl5MY.png" />
+                  <br />
+                  <p>Naddechan's Room</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-12">
+              <div class="project-card">
+                <a
+                  onClick="document.getElementById('page').innerHTML=document.getElementById('tech').innerHTML">more...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br /><br /><br /><br />
+        <!--project end here-->
+      </center>
+    </div>
+    <!--home tab end here-->
+
+  </table>
+  <br /><br />
+
+  <!-- footer start here-->
+  <div class="footer">
+    <p style="padding-left: 3.8%">Naddechan ⓒ 2023</p>
+    <div style="padding-left: 3.8%; color: #555555">
+      <a class="floating-icon" href="mailto:aliaanadzirahh00@gmail.com"><img class="icon-footer"
+          src="https://cdn-icons-png.flaticon.com/512/542/542638.png" /></a> 
+      <a class="floating-icon" href="https://www.linkedin.com/in/alianadzirah"><img class="icon-footer"
+          src="https://cdn-icons-png.flaticon.com/512/61/61109.png" /></a> 
+      <a class="floating-icon" href="https://github.com/alianadzirah/"><img class="icon-footer"
+          src="https://cdn-icons-png.flaticon.com/512/25/25657.png" /></a> 
+    </div>
+  </div>
+  <!-- footer end here-->
+
+  <!--apply bootstrap-->
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- JavaScript for collapsible start here-->
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+  </script>
+  <!-- JavaScript for collapsible end here-->
+
+  <!--hide unhide element start here-->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myDIV");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+  <!--hide unhide element end here-->
+
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+  </script>
+</body>
+
+</html>
