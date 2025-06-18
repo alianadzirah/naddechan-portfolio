@@ -2,35 +2,34 @@
 <html>
 
 <head>
-  <base target='_blank' /> <!--new tab link-->
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
-  <link rel="shortcut icon" href="https://imgur.com/IQS1XTk.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="https://i.imgur.com/IQS1XTk.png" type="image/x-icon" />
 
-  <link rel="stylesheet" href="css/font-awesome.min.css" />
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 
-  <title>naddechan</title>
-  <link rel="stylesheet" href="index.css" />
+    <title>nad's portfolio</title>
+    <link rel="stylesheet" href="index.css" />
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 </head>
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -38,1713 +37,350 @@
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet" />
 
 <body>
-  <!-- floating icon start here-->
-  <div style="
+    <div class="rocket-container">
+        <img src="https://i.imgur.com/swbmCZB.png"
+             class="rocket" alt="Rocket">
+      </div>
+
+    <div style="
         position: fixed;
         bottom: 0px;
         right: 0px;
         width: 50px;
         height: 160px;
       ">
-    <div class="floating-icon-container">
-      <a class="floating-icon" href="mailto:aliaanadzirahh00@gmail.com"><img class="icon-footer"
-          src="https://cdn-icons-png.flaticon.com/512/542/542638.png" /></a> 
-      <a class="floating-icon" href="https://www.linkedin.com/in/alianadzirah"><img class="icon-footer"
-          src="https://cdn-icons-png.flaticon.com/512/61/61109.png" /></a> 
-      <a class="floating-icon" href="https://github.com/alianadzirah/"><img class="icon-footer"
-          src="https://cdn-icons-png.flaticon.com/512/25/25657.png" /></a>
-    </div>
-  </div>
-  <!-- floating icon end here-->
-
-  <!--header start here-->
-  <div class="header">
-    <div>
-      <img width="60" src="https://imgur.com/IQS1XTk.png" />
-      <div class="header-option">
-        <a onClick="document.getElementById('page').innerHTML=document.getElementById('home').innerHTML">Home</a>
-        <a onClick="document.getElementById('page').innerHTML=document.getElementById('tech').innerHTML">Project</a>
-        <a onClick="document.getElementById('page').innerHTML=document.getElementById('resume').innerHTML">Resume</a>
-        <a href="mailto:aliaanadzirahh00@gmail.com">Contact</a>
-      </div>
-
-      <!--hamburger start here-->
-      <div class="header-menu">
-        <div class="btn-group">
-          <button class="button-drop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="material-icons" style="font-size: 35px; color: white">
-              menu
-            </i>
-          </button>
-          <div class="dropdown-menu dropdown-menu-right">
-            <a style="color: #555555;"
-              onClick="document.getElementById('page').innerHTML=document.getElementById('home').innerHTML">Home</a>
-            <a style="color: #555555;"
-              onClick="document.getElementById('page').innerHTML=document.getElementById('tech').innerHTML">Project</a>
-            <a style="color: #555555;"
-              onClick="document.getElementById('page').innerHTML=document.getElementById('resume').innerHTML">Resume</a>
-            <a style="color: #555555;" href="mailto:aliaanadzirahh00@gmail.com">Contact</a>
-          </div>
+        <div class="floating-icon-container">
+            <a class="floating-icon" href="mailto:aliaanadzirahh00@gmail.com"><img class="icon-footer"
+                    src="https://i.imgur.com/g3WPTpo.png" /></a> 
+            <a class="floating-icon" href="https://www.linkedin.com/in/alianadzirah"><img class="icon-footer"
+                    src="https://i.imgur.com/CuTNwuB.png" /></a> 
+            <a class="floating-icon" href="https://github.com/alianadzirah/"><img class="icon-footer"
+                    src="https://i.imgur.com/aE1FRUv.png" /></a>
         </div>
-      </div>
-      <!--hamburger end here-->
     </div>
-  </div>
-  <!--header end here-->
 
-  <table style="
-        background: #ffffff;
-        width: 100%;
-        color: #666;
-        line-height: 30px;
-        background-color: #fff;
-      " align="center" border="0" cellspacing="10">
-    <tbody>
-      <td valign="top" style="width: 100%; padding: 5px">
-        <div id="page">
-          <center>
-            <div class="header-intro">
-              <div class="intro-container">
+    <div class="header">
+        <div class="header-option">
+            <a href="#" style="cursor: pointer;"><img width="60" src="https://i.imgur.com/IQS1XTk.png" /></a>
+            <a style="margin-top: 10px; cursor: pointer;" href="#about">About</a>
+            <a style="margin-top: 10px; cursor: pointer;" href="#experience">Experience</a>
+            <a style="margin-top: 10px; cursor: pointer;" href="#projects">Projects</a>
+        </div>
+    </div>
+
+    <section id="header">
+        <div class="header-intro">
+            <div class="intro-container">
                 <p style="font-size: 20px;">Hi everyone I'm</p>
                 <p class="name-title"> Nad...</p>
                 <p>I'm a software engineer, and I'm interested in building inventive
-                  applications for websites and mobile devices especially in front-end development and UI design.</p>
-              </div>
-
-              <div class="typewriter">
-                <h2>
-                  <a style="color: #bbb; text-decoration: none" href="https://github.com/alianadzirah"><img
-                      style="width: 30px;" src="https://i.imgur.com/bfS9UVL.png" /> Github</a>
-                </h2>
-              </div>
+                    applications for websites and mobile devices especially in front-end development and UI design.</p>
             </div>
-
-            <!--experience start here-->
-            <!-- <div class="divider-title">Experience</div>
-            <div style="width: 90%; overflow: auto">
-              <div class="sub-divider-title">Competition</div>
-              <p>competition</p>
-              <br /><br />
-              <div class="sub-divider-title">Working Experience</div>
-              <p>working experience</p>
-              <br /><br />
-              <div class="sub-divider-title">Leadership Experience</div>
-              <p>working experience</p>
-              <br /><br />
-            </div>
-            <br /><br /> -->
-            <!--experience end here-->
-
-            <!--skill start here-->
-            <div class="divider-title">Skills</div>
-            <div style="width: 70%; overflow: auto">
-              <br />
-              <div class="skilltitle">
-                <label for="checkBtn">
-                  Mobile Development
-                </label>
-              </div>
-
-              <div>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                      <div class="project-view">
-                        <img class="logo-image" src="https://i.imgur.com/sWOvhyb.png" />
-                      </div>
-                      <div>
-                        <p>Flutter</p>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                      <div class="project-view">
-                        <img class="logo-image" src="https://i.imgur.com/9y056RG.png" />
-                      </div>
-                      <div>
-                        <p>Dart</p>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                      <div class="project-view">
-                        <img class="logo-image" src="https://i.imgur.com/hEvA4J0.png" />
-                      </div>
-                      <div>
-                        <p>Unity</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <br />
-              <div class="skilltitle">
-                <label for="checkBtn1">
-                  Web Development
-                </label>
-              </div>
-
-              <div>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                      <div class="project-view">
-                        <img class="logo-image" src="https://i.imgur.com/vv3h4pI.png" />
-                      </div>
-                      <div>
-                        <p>Vue JS</p>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                      <div class="project-view">
-                        <img class="logo-image" src="https://i.imgur.com/h53D8lU.png" />
-                      </div>
-                      <div>
-                        <p>HTML CSS</p>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                      <div class="project-view">
-                        <img class="logo-image" src="https://i.imgur.com/Q47DUJL.png" />
-                      </div>
-                      <div>
-                        <p>Bootstrap</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <br />
-              <div class="skilltitle">
-                <label for="checkBtn2">
-                  Others
-                </label>
-              </div>
-
-              <div>
-                <div class="container">
-                  <div class="row" style="text-align: center;">
-                    <!-- <div class="col-lg-4 col-md-4 col-sm-12">
-                      <div class="project-view">
-                        <img class="logo-image" src="https://i.imgur.com/XBYEGlE.png" />
-                      </div>
-                      <div>
-                        <p>Java</p>
-                      </div>
-                    </div> -->
-
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                      <div class="project-view">
-                        <img class="logo-image" src="https://i.imgur.com/lkHq7iJ.png" />
-                      </div>
-                      <div>
-                        <p>Spline</p>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                      <div class="project-view">
-                        <img class="logo-image" src="https://i.imgur.com/LCR3HLZ.png" />
-                      </div>
-                      <div>
-                        <p>Figma</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <br /><br /><br /><br />
-            <!--skill end here-->
-
-            <!--project start here-->
-            <div class="divider-title">Projects</div>
-            <div style="width: 80%; ">
-              <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                  <div class="project-card">
-                    <div class="project-view">
-                      <img class="project-image" src="https://i.imgur.com/4Zx6o75.png" />
-                      <br />
-                      <p>Datesify</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                  <div class="project-card">
-                    <div class="project-view">
-                      <img class="project-image-laptop" src="https://i.imgur.com/u1fIyAk.png" />
-                      <br />
-                      <p>PutraDeal</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                  <div class="project-card">
-                    <div class="project-view">
-                      <img class="project-image-laptop" src="https://i.imgur.com/hqAl5MY.png" />
-                      <br />
-                      <p>Naddechan's Room</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                  <div class="project-card">
-                    <a
-                      onClick="document.getElementById('page').innerHTML=document.getElementById('tech').innerHTML">more...</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <br /><br /><br /><br />
-            <!--project end here-->
-          </center>
         </div>
-      </td>
-    </tbody>
+    </section>
 
-    <div id="tech" style="display: none;">
-      <center>
-        <br /><br />
-        <div class="divider-title">Website</div>
-        <div style="width: 70%; overflow: auto">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div>
-                  <p>Moviie</p>
-                </div>
-                <div class="project-view">
-                  <img class="project-lap" src="https://i.imgur.com/G15kmrP.png" />
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="link-button">
-                      <a href="https://alianadzirah.github.io/moviie-website-color/">Demo</a></div>
-                    <div class="link-button">
-                      <a href="https://github.com/alianadzirah/moviie-website-color/">Code</a>
-                    </div>
-                  </div>
+    <section id="about">
+        <br>
+        <h2>about;</h2>
+        <br>
+        <div class="about-list">
+            <div style="align-items: center;">
+                <div class="circle-text-container">
+                    <svg viewBox="0 0 340 340" class="circle-svg">
+                        <defs>
+                            <path id="circlePath" d="M170,170 m-110,0 a110,110 0 1,1 220,0 a110,110 0 1,1 -220,0" />
+                            <clipPath id="circleClip">
+                                <circle cx="170" cy="170" r="85" />
+                            </clipPath>
+                        </defs>
 
-                </div>
+                        <g class="rotating-group">
+                            <text fill="#2c3e50" font-size="18" font-family="sans-serif">
+                                <textPath xlink:href="#circlePath" startOffset="0%">
+                                    .✦ ──────────────── ✨🚀 ──────────────────
+                                </textPath>
+                            </text>
+                        </g>
 
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="tagging">
-                      React
-                    </div>
-                    <div class="tagging">
-                      JavaScript
-                    </div>
-                  </div>
-
+                        <image href="https://i.imgur.com/IQS1XTk.png" x="85" y="85" width="170" height="170"
+                            clip-path="url(#circleClip)" preserveAspectRatio="xMidYMid slice" />
+                    </svg>
                 </div>
-                <div class="project-detail">
-                  <div style="align-self: center;">
-                    <p>Moviie is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.</p>
-                  </div>
-                </div>
-              </div>
 
             </div>
-          </div>
-          <br /><br /> 
-
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div>
-                  <p>Naddechan</p>
-                </div>
-                <div class="project-view">
-                  <img class="project-lap" src="https://i.imgur.com/nyasHEn.png" />
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="link-button">
-                      <a href="https://alianadzirah.github.io/naddechan-portfolio/">Demo</a></div>
-                    <div class="link-button">
-                      <a href="https://github.com/alianadzirah/naddechan-portfolio">Code</a>
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="tagging">
-                      WordPress
-                    </div>
-                    <div class="tagging">
-                      HTML CSS JS
-                    </div>
-                  </div>
-
-                </div>
-                <div class="project-detail">
-                  <div style="align-self: center;">
-                    <p>Naddechan Website is a portfolio website to showcase all the projects that had been built.</p>
-                  </div>
-                </div>
-              </div>
-
+            <div class="about-item">
+                <span style="color:white;">Front-End Developer with 2 years of professional experience in building
+                    responsive web and mobile interfaces using <span style="color:#CC3DA1;">Vue.js</span> and <span
+                        style="color:#CC3DA1;">Flutter</span>. Familiar with <span style="color:#CC3DA1;">React</span>
+                    and skilled in
+                    <span style="color:#CC3DA1;">UI/UX</span> design, supported by a creative background in <span
+                        style="color:#CC3DA1;">2D/3D</span> multimedia. Passionate about crafting
+                    intuitive front-end solutions and enhancing performance and accessibility</span>
             </div>
-          </div>
-          <br /><br /> 
-
-          <!--affiliate link template start here-->
-          <!-- <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div>
-                  <p>Affiliate Link Template</p>
-                </div>
-                <div class="project-view">
-                  <img class="project-lap" src="https://i.imgur.com/ondbbYu.png" />
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="link-button">
-<a href="https://alianadzirah.github.io/expensetracker/">Demo</a></div>
-                    <div class="link-button">
-                      <a href="https://github.com/alianadzirah/expensetracker">Code</a>
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="tagging">
-                      React
-                    </div>
-                    <div class="tagging">
-                      JavaScript
-                    </div>
-                  </div>
-
-                </div>
-                <div class="project-detail">
-                  <div style="align-self: center;">
-                    <p>Expense Tracker is a website wheres users can insert their daily expenses. The website will keep track of the users' expenses every month and year.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <br /><br /> -->
-          <!--affiliate link template end here-->
-
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div>
-                  <p>Expense Tracker</p>
-                </div>
-                <div class="project-view">
-                  <img class="project-lap" src="https://i.imgur.com/ondbbYu.png" />
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="link-button">
-<a href="https://alianadzirah.github.io/expensetracker/">Demo</a></div>
-                    <div class="link-button">
-                      <a href="https://github.com/alianadzirah/expensetracker">Code</a>
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="tagging">
-                      React
-                    </div>
-                    <div class="tagging">
-                      JavaScript
-                    </div>
-                  </div>
-
-                </div>
-                <div class="project-detail">
-                  <div style="align-self: center;">
-                    <p>Expense Tracker is a website wheres users can insert their daily expenses. The website will keep track of the users' expenses every month and year.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <br /><br />
-
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div>
-                  <p>To do list Version 1</p>
-                </div>
-                <div class="project-view">
-                  <img class="project-lap" src="https://i.imgur.com/0pl9OTE.png" />
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="link-button">
-                      <a href="https://alianadzirah.github.io/todolist-webv1/">Demo</a></div>
-                    <div class="link-button">
-                      <a href="https://github.com/alianadzirah/todolist-webv1">Code</a>
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="tagging">
-                      React
-                    </div>
-                    <div class="tagging">
-                      TypeScript
-                    </div>
-                  </div>
-
-                </div>
-                <div class="project-detail">
-                  <div style="align-self: center;">
-                    <p>To do list Version 1 is a website that allows user to store their to do list. This application allows users to delete the task that had been stored.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <br /><br />
-
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div>
-                  <p>To do list Version 2</p>
-                </div>
-                <div class="project-view">
-                  <img class="project-lap" src="https://i.imgur.com/JVuN213.png" />
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="link-button">
-                      <a href="https://alianadzirah.github.io/todolist-webv2/">Demo</a></div>
-                    <div class="link-button">
-                      <a href="https://github.com/alianadzirah/todolist-webv2">Code</a>
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="tagging">
-                      React
-                    </div>
-                    <div class="tagging">
-                      JavaScript
-                    </div>
-                  </div>
-
-                </div>
-                <div class="project-detail">
-                  <div style="align-self: center;">
-                    <p>To do list Version 2 is a website that allows user to store their to do list. This application allows users to delete the task that had been stored.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <br /><br />
-
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div>
-                  <p>User Tracker</p>
-                </div>
-                <div class="project-view">
-                  <img class="project-lap" src="https://i.imgur.com/tVSSV7q.png" />
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="link-button">
-<a href="https://alianadzirah.github.io/user-tracker/">Demo</a></div>
-                    <div class="link-button">
-                      <a href="https://github.com/alianadzirah/user-tracker">Code</a>
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="tagging">
-                      React
-                    </div>
-                    <div class="tagging">
-                      JavaScript
-                    </div>
-                  </div>
-
-                </div>
-                <div class="project-detail">
-                  <div style="align-self: center;">
-                    <p>User Tracker is a website wheres users can insert their name and age. The details that had been inserted will be display on the screen.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <br /><br />
-
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div>
-                  <p>Linktree Inspire</p>
-                </div>
-                <div class="project-view">
-                  <img class="project-lap" src="https://i.imgur.com/StpykKH.png" />
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="link-button">
-<a href="https://alianadzirah.github.io/affiliate-template/">Demo</a></div>
-                    <div class="link-button">
-                      <a href="https://github.com/alianadzirah/affiliate-template">Code</a>
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="tagging">
-                      WordPress
-                    </div>
-                    <div class="tagging">
-                      HTML CSS JS
-                    </div>
-                  </div>
-
-                </div>
-                <div class="project-detail">
-                  <div style="align-self: center;">
-                    <p>Linktree Inspire is a website where users can put all the links that they have easier for other to view their social medias or projects.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <br /><br />
-
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div>
-                  <p>Food Distribution System (Team)</p>
-                </div>
-                <div class="project-view">
-                  <img class="project-lap" src="https://i.imgur.com/oMazH6b.png" />
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="link-button">
-                      <a
-                        href="https://www.figma.com/proto/TLqMXyF7l8GrlAmKN3zVdF/food-distribution-system-(Copy)?node-id=275-1048&scaling=scale-down&page-id=0%3A1&starting-point-node-id=275%3A1048&show-proto-sidebar=1">Demo</a>
-                    </div>
-                    <div class="link-button-disable">
-                      Code
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="tagging">
-                      Unity
-                    </div>
-                    <div class="tagging">
-                      C#
-                    </div>
-                  </div>
-
-                </div>
-                <div class="project-detail">
-                  <div style="align-self: center;">
-                    <p>Food Distribution System is a system that allows user to do
-                      contactless food ordering in schools and handles orders.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <br /><br />
-
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div>
-                  <p>PutraDeal (Team)</p>
-                </div>
-                <div class="project-view">
-                  <img class="project-lap" src="https://i.imgur.com/u1fIyAk.png" />
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="link-button">
-                      <a
-                        href="https://www.figma.com/proto/O4DM2hjxxLG8CIGKdsedGR/PutraDeal-GUI?scaling=scale-down&page-id=0%3A1&starting-point-node-id=495%3A21&show-proto-sidebar=1&node-id=495-21">Demo</a>
-                    </div>
-                    <div class="link-button-disable">
-                      Code
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="tagging">
-                      Unity
-                    </div>
-                    <div class="tagging">
-                      C#
-                    </div>
-                  </div>
-
-                </div>
-                <div class="project-detail">
-                  <div style="align-self: center;">
-                    <p>PutraDeal is an E-commerce website for users to shop or handles
-                      end-to-end sales process specifically in UPM Community</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <br /><br />
-
         </div>
-        
-        <br /><br />
-        <div class="divider-title">Mobile</div>
-        <div style="width: 70%; overflow: auto">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div>
-                  <p>To do list Version 1</p>
-                </div>
-                <div class="project-view">
-                  <img class="project-mob" src="https://i.imgur.com/eihpXC6.png" />
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="link-button">
-                      <a href="https://snack.expo.dev/@naddechan/todolistmobv1">Demo</a>
-                    </div>
-                    <div class="link-button">
-                      <a href="https://github.com/alianadzirah/todo-mobv1">Code</a>
-                    </div>
-                  </div>
+    </section>
 
-                </div>
+    <section id="experience">
+        <br>
+        <h2>experience;</h2>
+        <br>
 
-              </div>
+        <div class="about-list">
 
-              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="tagging">
-                      React Native
-                    </div>
-                    <div class="tagging">
-                      TypeScript
-                    </div>
-                  </div>
-
-                </div>
-                <div class="project-detail">
-                  <div style="align-self: center;">
-                    <p>To do list Version 1 is an Android mobile application that allow users to store their to do list. This application allow users to edit and delete the task that had been stored. The users also allowed to undo their actions.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <br /><br />
-
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div>
-                  <p>To do list Version 2</p>
-                </div>
-                <div class="project-view">
-                  <img class="project-mob" src="https://i.imgur.com/Hiq7S4J.png" />
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="link-button">
-                      <a href="https://snack.expo.dev/@naddechan/todolistmobv2">Demo</a>
-                    </div>
-                    <div class="link-button">
-                      <a href="https://github.com/alianadzirah/todo-mobv2">Code</a>
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="tagging">
-                      React Native
-                    </div>
-                    <div class="tagging">
-                      JavaScript
-                    </div>
-                  </div>
-
-                </div>
-                <div class="project-detail">
-                  <div style="align-self: center;">
-                    <p>To do list Version 2 is an Android mobile application that allow users to store their to do list. This application allow users to edit and delete the task that had been stored. The users also allowed to undo their actions.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <br /><br />
-
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div>
-                  <p>To do list Version 3</p>
-                </div>
-                <div class="project-view">
-                  <img class="project-mob" src="https://i.imgur.com/8AOWhuv.png" />
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="link-button">
-                      <a href="https://snack.expo.dev/@naddechan/todolistmobv3">Demo</a>
-                    </div>
-                    <div class="link-button">
-                      <a href="https://github.com/alianadzirah/todo-mobv3">Code</a>
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="tagging">
-                      React Native
-                    </div>
-                    <div class="tagging">
-                      JavaScript
-                    </div>
-                  </div>
-
-                </div>
-                <div class="project-detail">
-                  <div style="align-self: center;">
-                    <p>To do list Version 3 is an Android mobile application that allow users to store their to do list. This application allow users to edit and delete the task that had been stored. The users also allowed to undo their actions.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <br /><br />
-
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div>
-                  <p>To do list Version 4</p>
-                </div>
-                <div class="project-view">
-                  <img class="project-mob" src="https://i.imgur.com/XYUFlvA.png" />
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="link-button">
-                      <a href="https://snack.expo.dev/@naddechan/todolistmobv4">Demo</a>
-                    </div>
-                    <div class="link-button">
-                      <a href="https://github.com/alianadzirah/todo-mobv4">Code</a>
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="tagging">
-                      React Native
-                    </div>
-                    <div class="tagging">
-                      JavaScript
-                    </div>
-                  </div>
-
-                </div>
-                <div class="project-detail">
-                  <div style="align-self: center;">
-                    <p>To do list Version 4 is an Android mobile application that allow users to store their to do list. This application allow users to edit and delete the task that had been stored. The users also allowed to undo their actions.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <br /><br />
-
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div>
-                  <p>Color Array</p>
-                </div>
-                <div class="project-view">
-                  <img class="project-mob" src="https://i.imgur.com/jIr8lxb.png" />
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="link-button">
-						<a href="https://snack.expo.dev/@naddechan/colorarray">Demo</a>
-                    </div>
-                    <div class="link-button">
-                      <a href="https://github.com/alianadzirah/color-array">Code</a>
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="tagging">
-                      React Native
-                    </div>
-                    <div class="tagging">
-                      JavaScript
-                    </div>
-                  </div>
-
-                </div>
-                <div class="project-detail">
-                  <div style="align-self: center;">
-                    <p>Color Array is an Android mobile application that allows user to click on the push button or remove button. Random color will appear every each time user click the button. The total of the color that appear also shown in the screen.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <br /><br />
-
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div>
-                  <p>Guess Number Game</p>
-                </div>
-                <div class="project-view">
-                  <img class="project-mob" src="https://i.imgur.com/QXhDwym.png" />
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="link-button">
-						<a href="https://snack.expo.dev/@naddechan/guessnumbergame">Demo</a>
-                    </div>
-                    <div class="link-button">
-                      <a href="https://github.com/alianadzirah/guess-number-game">Code</a>
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="tagging">
-                      React Native
-                    </div>
-                    <div class="tagging">
-                      JavaScript
-                    </div>
-                  </div>
-
-                </div>
-                <div class="project-detail">
-                  <div style="align-self: center;">
-                    <p>Guess Number Game is an Android mobile game application that allows user to enter any random game as the initial number. The computer user will then try to “guess” the correct number user input. The computer cannot guess correctly the first time. The guess made by the computer will be displayed. If the computer manages to guess within less than 5 guesses then the computer wins. Otherwise the user wins.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <br /><br />
-
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div>
-                  <p>Animation Box</p>
-                </div>
-                <div class="project-view">
-                  <img class="project-mob" src="https://i.imgur.com/guXZZ7l.png" />
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="link-button">
-						<a href="https://snack.expo.dev/@naddechan/animationbox">Demo</a>
-                    </div>
-                    <div class="link-button">
-                      <a href="https://github.com/alianadzirah/animation-box">Code</a>
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="tagging">
-                      React Native
-                    </div>
-                    <div class="tagging">
-                      JavaScript
-                    </div>
-                  </div>
-
-                </div>
-                <div class="project-detail">
-                  <div style="align-self: center;">
-                    <p>Animation Box is an Android mobile application that allows user to touch on the box at the center and animation of the box will appear on the screen.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <br /><br />
-
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div>
-                  <p>Goal App</p>
-                </div>
-                <div class="project-view">
-                  <img class="project-mob" src="https://i.imgur.com/Vc8jCco.png" />
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="link-button">
-						<a href="https://snack.expo.dev/@naddechan/goal-app">Demo</a>
-                    </div>
-                    <div class="link-button">
-                      <a href="https://github.com/alianadzirah/goal-app">Code</a>
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="tagging">
-                      React Native
-                    </div>
-                    <div class="tagging">
-                      JavaScript
-                    </div>
-                  </div>
-
-                </div>
-                <div class="project-detail">
-                  <div style="align-self: center;">
-                    <p>Goal App is an Android mobile application that allows user to store their goals same as To do list mobile application. Users can delete or edit their goals.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <br /><br />
-
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div>
-                  <p>User Contact</p>
-                </div>
-                <div class="project-view">
-                  <img class="project-mob" src="https://i.imgur.com/JHQO9mM.png" />
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="link-button">
-						<a href="https://snack.expo.dev/@naddechan/usertracker">Demo</a>
-                    </div>
-                    <div class="link-button">
-                      <a href="https://github.com/alianadzirah/user-contact">Code</a>
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="tagging">
-                      React Native
-                    </div>
-                    <div class="tagging">
-                      JavaScript
-                    </div>
-                  </div>
-
-                </div>
-                <div class="project-detail">
-                  <div style="align-self: center;">
-                    <p>User Contact is an Android mobile application that allows user to track user contact by entering the email or mobile number. The result will be displayed.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <br /><br />
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div>
-                  <p>StudyChill</p>
-                </div>
-                <div class="project-view">
-                  <img class="project-mob" src="https://i.imgur.com/uy7QBEP.png" />
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="link-button-disable">
-                      Demo
-                    </div>
-                    <div class="link-button-disable">
-                      Code
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="tagging">
-                      Unity
-                    </div>
-                    <div class="tagging">
-                      C#
-                    </div>
-                  </div>
-
-                </div>
-                <div class="project-detail">
-                  <div style="align-self: center;">
-                    <p>StudyChill is an Android mobile application that allows user to
-                      gain information, tips and trick about education. It is focusing
-                      especially on self learning. This application allows users to
-                      study in cozy environment. Users also can download study
-                      template from this application.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <br /><br />
-
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div>
-                  <p>Girls Talk (Team)</p>
-                </div>
-                <div class="project-view">
-                  <img class="project-mob" src="https://i.imgur.com/0gcpvWB.png" />
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="link-button-disable">
-                      Demo
-                    </div>
-                    <div class="link-button-disable">
-                      Code
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="tagging">
-                      Unity
-                    </div>
-                    <div class="tagging">
-                      C#
-                    </div>
-                  </div>
-
-                </div>
-                <div class="project-detail">
-                  <div style="align-self: center;">
-                    <p>Girls Talk is an Android mobile application that focusing on
-                      giving awareness on Pelvic Inflammatory Disease (PID). This
-                      application allows users to read more details on PID. Users also
-                      can use AR feature to scan the image in Girls Talk storybook to
-                      view the 360° of ovary model.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <br /><br />
-
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div>
-                  <p>Focutask (Team)</p>
-                </div>
-                <div class="project-view">
-                  <img class="project-mob" src="https://i.imgur.com/ZUWxs3c.png" />
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="link-button-disable">
-                      Demo
-                    </div>
-                    <div class="link-button-disable">
-                      Code
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="tagging">
-                      Flutter
-                    </div>
-                    <div class="tagging">
-                      Dart
-                    </div>
-                  </div>
-
-                </div>
-                <div class="project-detail">
-                  <div style="align-self: center;">
-                    <p>Focutask is an Android mobile application that helps the user in
-                      remaining focused while working by utilizing the Pomodoro
-                      technique and organizing tasks into a to-do list. This
-                      application will not be addictive but it will assist users to
-                      stay focused on their tasks and keep it on track.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <br /><br />
-
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div>
-                  <p>Datesify</p>
-                </div>
-                <div class="project-view">
-                  <img class="project-mob" src="https://i.imgur.com/4Zx6o75.png" />
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="link-button">
-                      <a
-                        href="https://www.figma.com/proto/WMGPqOoxQRYYQbQTcrGR7n/Datesify?scaling=scale-down&page-id=0%3A1&node-id=1%3A4&starting-point-node-id=1%3A4">Demo</a>
-                    </div>
-                    <div class="link-button">
-                      <a href="https://github.com/alianadzirah/datesify">Code</a>
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-12" style="align-self: center;">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="tagging">
-                      Flutter
-                    </div>
-                    <div class="tagging">
-                      Dart
-                    </div>
-                  </div>
-
-                </div>
-                <div class="project-detail">
-                  <div style="align-self: center;">
-                    <p>Datesify is an Android mobile application that allows user to do
-                      classification features of dates fruits to detect their types.
-                      Users can also gains information about dates fruit and play the
-                      games.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <br /><br />
-        </div>
-
-        <br /><br />
-        <div class="divider-title">3D Model</div>
-        <div style="width: 70%; overflow: auto">
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <div>
-              <p>Naddechan's Room</p>
-            </div>
-            <div class="project-view">
-              <img class="project-lap" src="https://i.imgur.com/hqAl5MY.png" />
-            </div>
-            <div class="row align-items-center">
-              <div class="col">
-                <div class="link-button">
-                  <a href="https://my.spline.design/miniroomartcopy-5827646afda04737c8be2e7fd2c3ed8e/">Demo</a>
-                </div>
-                <div class="tagging">
-                  Spline
-                </div>
-              </div>
-
+            <div class="tab-buttons">
+                <button class="tab-btn active" onclick="openTab(event, 'tab1')">Vectolabs Technologies</button>
+                <button class="tab-btn" onclick="openTab(event, 'tab2')">Finexus Group</button>
             </div>
 
-          </div>
-          <br /><br />
+            <div class="about-item">
+                <div class="tab-content" id="tab1" style="display: block;">
+                    <p>Software Developer (Mobile & Web)</p>
+                    <p style="color: #CC3DA1; font-size: 15px;">Aug 2023 - present</p>
+                    <br>
+                    <p style="font-size: 15px;"><span style="color: #CC3DA1;">&#9658; &nbsp;</span> Built an interface
+                        of an interactive mobile application using Flutter and a web dashboard using Vue.js to enable
+                        efficient monitoring of waste disposal jobs involving different login users which are different
+                        interfaces</p>
+                    <p style="font-size: 15px;"><span style="color: #CC3DA1;">&#9658; &nbsp;</span> Released the smart
+                        toilet mobile apps on both iOS and Android platforms through unlisted distribution</p>
+                    <p style="font-size: 15px;"><span style="color: #CC3DA1;">&#9658; &nbsp;</span> Developed a Single
+                        Sign-On (SSO) platform to unify access across multiple systems, including the Smart Toilet
+                        System (San-i Sense), Smart Lighting System (Urbanlume), Smart Traffic System (Ai-Lintas), and
+                        Smart Energy
+                        Monitoring (Enertrace)</p>
 
+
+                </div>
+                <div class="tab-content" id="tab2" style="display: none;">
+                    <p>Front-End Software Engineer (IT Internship)</p>
+                    <p style="color: #CC3DA1; font-size: 15px;">Mar 2023 - Aug 2023</p>
+                    <br>
+                    <p style="font-size: 15px;"><span style="color: #CC3DA1;">&#9658; &nbsp;</span> Developed and
+                        maintained the UI for one of the big projects in the company that offers financial services
+                        which is
+                        a mobile application named Kayaaku Wallet by using React Native.</p>
+                    <p style="font-size: 15px;"><span style="color: #CC3DA1;">&#9658; &nbsp;</span> Integrated a vibrant
+                        Hari Raya theme into Kayaaku Wallet, enhancing the user experience with a festive and
+                        visually appealing UI designed by the creative team.</p>
+
+                </div>
+            </div>
         </div>
 
 
-      </center>
-    </div>
+    </section>
 
-    <!--resume page start here-->
-    <div id="resume" style="display: none;">
-      <center>
-        <br /><br />
-        <div class="divider-title">Resume</div>
-        <div class="col-lg-6 col-md-6 col-sm-12">
-        <img class="resume-image" src="https://i.imgur.com/mrrWsCk.png" /></div>
-        <br />
-        <div class="link-button">
-          <a href="https://www.dropbox.com/scl/fi/88sz7sgza8ned7vai9iya/ALIA-NADZIRAH-JANUARY-2024-RESUME.zip"
-            download="alianadzirah_resume">Download</a>
+    <section id="projects">
+        <br>
+        <h2>projects;</h2>
+        <br>
+
+        <div class="experience-list">
+            <div class="experience-item">
+                <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+                    <h3 class="role" style="margin: 0;">Datesify</h3>
+                    <div style="display: flex; gap: 10px;">
+                        <a class="floating-icon"
+                            href="https://www.figma.com/proto/WMGPqOoxQRYYQbQTcrGR7n/Datesify?scaling=scale-down&page-id=0%3A1&node-id=1%3A4&starting-point-node-id=1%3A4">
+                            <img width="30" src="https://i.imgur.com/BzHZCBI.png" />
+                        </a>
+                        <a class="floating-icon" href="https://github.com/alianadzirah/datesify/">
+                            <img width="30" src="https://i.imgur.com/aE1FRUv.png" />
+                        </a>
+                    </div>
+                </div>
+
+                <span class="timeframe">Flutter, Dart</span>
+                <p class="description">
+                    Android mobile application that allows user to do classification features of dates fruits to detect
+                    their types.
+                </p>
+            </div>
+
+            <div class="experience-item">
+                <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+                    <h3 class="role" style="margin: 0;">Naddechan's Room</h3>
+                    <div style="display: flex; gap: 10px;">
+                        <a class="floating-icon"
+                            href="https://my.spline.design/miniroomartcopy-5827646afda04737c8be2e7fd2c3ed8e/">
+                            <img width="30" src="https://i.imgur.com/BzHZCBI.png" />
+                        </a>
+                    </div>
+                </div>
+
+                <span class="timeframe">Spline</span>
+                <p class="description">
+                    3D model was created based on a real-life photo, accurately replicating its shape, details, and
+                    textures.
+                </p>
+            </div>
+
+            <div class="experience-item">
+                <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+                    <h3 class="role" style="margin: 0;">Moviie</h3>
+                    <div style="display: flex; gap: 10px;">
+                        <a class="floating-icon" href="https://alianadzirah.github.io/moviie-website-color/">
+                            <img width="30" src="https://i.imgur.com/BzHZCBI.png" />
+                        </a>
+                        <a class="floating-icon" href="https://github.com/alianadzirah/moviie-website-color/">
+                            <img width="30" src="https://i.imgur.com/aE1FRUv.png" />
+                        </a>
+                    </div>
+                </div>
+                <span class="timeframe">React, JavaScript</span>
+                <p class="description">
+                    Web streaming service that offers a wide variety of award-winning TV shows, movies, anime, and more
+                    on thousands of internet-connected devices.
+                </p>
+            </div>
+
+
         </div>
-      </center>
-
-    </div>
-    <!--resume page end here-->
-
-    <!--home tab start here-->
-    <div id="home" style="display: none">
-      <center>
-        <div class="header-intro">
-          <div class="intro-container">
-            <p style="font-size: 20px;">Hi everyone I'm</p>
-            <p class="name-title"> Nad...</p>
-            <p>I'm a software engineer, and I'm interested in building inventive
-              applications for websites and mobile devices especially in front-end development and UI design.</p>
-          </div>
-
-          <div class="typewriter">
-            <h2>
-              <a style="color: #bbb; text-decoration: none" href="https://github.com/alianadzirah"><img
-                  style="width: 30px;" src="https://i.imgur.com/bfS9UVL.png" /> Github</a>
-            </h2>
-          </div>
+        <br>
+        <div style=" 
+        gap: 2rem;
+        text-align: right;
+        max-width: 1000px;
+        margin: 0 auto;">
+            <span onclick="location.href='projects.html'" class="subtitle">see more...</span>
         </div>
 
-        <!--experience start here-->
-        <!-- <div class="divider-title">Experience</div>
-        <div style="width: 90%; overflow: auto">
-          <div class="sub-divider-title">Competition</div>
-          <p>competition</p>
-          <br /><br />
-          <div class="sub-divider-title">Working Experience</div>
-          <p>working experience</p>
-          <br /><br />
-          <div class="sub-divider-title">Leadership Experience</div>
-          <p>working experience</p>
-          <br /><br />
-        </div>
-        <br /><br /> -->
-        <!--experience end here-->
+    </section>
 
-        <!--skill start here-->
-        <div class="divider-title">Skills</div>
-        <div style="width: 70%; overflow: auto">
-          <br />
-          <div class="skilltitle">
-            <label for="checkBtn4">
-              Mobile Development
-            </label>
-          </div>
+    <!--apply bootstrap-->
+    <script src="js/bootstrap.bundle.min.js"></script>
 
-          <div>
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                  <div class="project-view">
-                    <img class="logo-image" src="https://i.imgur.com/sWOvhyb.png" />
-                  </div>
-                  <div>
-                    <p>Flutter</p>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                  <div class="project-view">
-                    <img class="logo-image" src="https://i.imgur.com/9y056RG.png" />
-                  </div>
-                  <div>
-                    <p>Dart</p>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                  <div class="project-view">
-                    <img class="logo-image" src="https://i.imgur.com/hEvA4J0.png" />
-                  </div>
-                  <div>
-                    <p>Unity</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <br />
-          <div class="skilltitle">
-            <label for="checkBtn5">
-              Web Development
-            </label>
-          </div>
-
-          <div>
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                  <div class="project-view">
-                    <img class="logo-image" src="https://i.imgur.com/vv3h4pI.png" />
-                  </div>
-                  <div>
-                    <p>Vue JS</p>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                  <div class="project-view">
-                    <img class="logo-image" src="https://i.imgur.com/h53D8lU.png" />
-                  </div>
-                  <div>
-                    <p>HTML CSS</p>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                  <div class="project-view">
-                    <img class="logo-image" src="https://i.imgur.com/Q47DUJL.png" />
-                  </div>
-                  <div>
-                    <p>Bootstrap</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <br />
-          <div class="skilltitle">
-            <label for="checkBtn6">
-              Others
-            </label>
-          </div>
-
-          <div>
-            <div class="container">
-              <div class="row">
-                <!-- <div class="col-lg-4 col-md-4 col-sm-12">
-                  <div class="project-view">
-                    <img class="logo-image" src="https://i.imgur.com/XBYEGlE.png" />
-                  </div>
-                  <div>
-                    <p>Java</p>
-                  </div>
-                </div> -->
-
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                  <div class="project-view">
-                    <img class="logo-image" src="https://i.imgur.com/lkHq7iJ.png" />
-                  </div>
-                  <div>
-                    <p>Spline</p>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                  <div class="project-view">
-                    <img class="logo-image" src="https://i.imgur.com/LCR3HLZ.png" />
-                  </div>
-                  <div>
-                    <p>Figma</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <br /><br /><br /><br />
-        <!--skill end here-->
-
-        <!--project start here-->
-        <div class="divider-title">Projects</div>
-        <div style="width: 80%; ">
-          <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-12">
-              <div class="project-card">
-                <div class="project-view">
-                  <img class="project-image" src="https://i.imgur.com/4Zx6o75.png" />
-                  <br />
-                  <p>Datesify</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-sm-12">
-              <div class="project-card">
-                <div class="project-view">
-                  <img class="project-image-laptop" src="https://i.imgur.com/u1fIyAk.png" />
-                  <br />
-                  <p>PutraDeal</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-sm-12">
-              <div class="project-card">
-                <div class="project-view">
-                  <img class="project-image-laptop" src="https://i.imgur.com/hqAl5MY.png" />
-                  <br />
-                  <p>Naddechan's Room</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-sm-12">
-              <div class="project-card">
-                <a
-                  onClick="document.getElementById('page').innerHTML=document.getElementById('tech').innerHTML">more...</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <br /><br /><br /><br />
-        <!--project end here-->
-      </center>
-    </div>
-    <!--home tab end here-->
-
-  </table>
-  <br /><br />
-
-  <!-- footer start here-->
-  <div class="footer">
-    <p style="padding-left: 3.8%">Naddechan ⓒ 2024</p>
-    <div style="padding-left: 3.8%; color: #555555">
-      <a class="floating-icon" href="mailto:aliaanadzirahh00@gmail.com"><img class="icon-footer"
-          src="https://cdn-icons-png.flaticon.com/512/542/542638.png" /></a> 
-      <a class="floating-icon" href="https://www.linkedin.com/in/alianadzirah"><img class="icon-footer"
-          src="https://cdn-icons-png.flaticon.com/512/61/61109.png" /></a> 
-      <a class="floating-icon" href="https://github.com/alianadzirah/"><img class="icon-footer"
-          src="https://cdn-icons-png.flaticon.com/512/25/25657.png" /></a> 
-    </div>
-  </div>
-  <!-- footer end here-->
-
-  <!--apply bootstrap-->
-  <script src="js/bootstrap.bundle.min.js"></script>
-
-  <!-- JavaScript for collapsible start here-->
-  <script>
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
-
-    for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function () {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.display === "block") {
-          content.style.display = "none";
-        } else {
-          content.style.display = "block";
-        }
-      });
-    }
-  </script>
-  <!-- JavaScript for collapsible end here-->
-
-  <!--hide unhide element start here-->
-  <script>
-    function myFunction() {
-      var x = document.getElementById("myDIV");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
-    }
-  </script>
-  <!--hide unhide element end here-->
-
-  <script>
-    /* When the user clicks on the button, 
-    toggle between hiding and showing the dropdown content */
-    function myFunction() {
-      document.getElementById("myDropdown").classList.toggle("show");
-    }
-
-    // Close the dropdown if the user clicks outside of it
-    window.onclick = function (event) {
-      if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content");
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
         var i;
-        for (i = 0; i < dropdowns.length; i++) {
-          var openDropdown = dropdowns[i];
-          if (openDropdown.classList.contains('show')) {
-            openDropdown.classList.remove('show');
-          }
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
         }
-      }
-    }
-  </script>
+    </script>
 
-	<script>
-// Get the button
-let mybutton = document.getElementById("myBtn");
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myDIV");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <script>
+        function createComet() {
+            const comet = document.createElement("div");
+            comet.classList.add("comet");
+
+            // Random position at top-left area
+            const startX = Math.random() * window.innerWidth * 0.8;
+            const startY = Math.random() * window.innerHeight * 0.3;
+            comet.style.left = `${startX}px`;
+            comet.style.top = `${startY}px`;
+
+            // Random duration between 1s to 2s
+            const duration = 1 + Math.random() * 1;
+
+            // Apply animation dynamically
+            comet.style.animation = `cometTrail ${duration}s linear forwards`;
+
+            document.body.appendChild(comet);
+
+            // Clean up after animation completes
+            setTimeout(() => {
+                comet.remove();
+            }, duration * 1000);
+        }
+
+        // Launch a few comets at start
+        for (let i = 0; i < 5; i++) {
+            setTimeout(() => {
+                createComet();
+            }, i * 400);
+        }
+
+        // Continue spawning comets over time
+        setInterval(() => {
+            const count = Math.floor(Math.random() * 3) + 1; // 1–3 comets
+            for (let i = 0; i < count; i++) {
+                setTimeout(createComet, i * 300);
+            }
+        }, 3000);
+    </script>
+
+    <script>
+        function openTab(evt, tabId) {
+            const contents = document.querySelectorAll(".tab-content");
+            const buttons = document.querySelectorAll(".tab-btn");
+
+            contents.forEach(c => c.style.display = "none");
+            buttons.forEach(b => b.classList.remove("active"));
+
+            document.getElementById(tabId).style.display = "block";
+            evt.currentTarget.classList.add("active");
+        }
+    </script>
+
 </body>
+
+<div
+    style="align-items: center; justify-content: center; align-self: center; justify-items: center; background-image: url('https://i.imgur.com/LZauNCO.png'); width: 100%; bottom: 0; height: 25vh; background-size: cover; background-position: center; color: white; text-align: center;">
+    <p style="color:#CC3DA1 ; ">naddechan &nbsp; ⓒ &nbsp; 2025</p>
+</div>
 
 </html>
