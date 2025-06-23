@@ -16,8 +16,8 @@ body {
     position: fixed; 
     top: 50%;
     left: -100px;
-    width: 60px;
-    height: auto;
+    height: 60px;
+    width: auto;
     transform: translateY(-50%);
     animation: flyAcross 10s linear infinite;
     z-index: -1; 
